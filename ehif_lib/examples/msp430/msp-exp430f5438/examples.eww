@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\flash_programming\flash_programming.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\master\master.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\production_test\production_test.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\slave\slave.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

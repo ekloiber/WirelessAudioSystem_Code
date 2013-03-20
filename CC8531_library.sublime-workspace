@@ -1,0 +1,516 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nD",
+				"nData"
+			],
+			[
+				"nI",
+				"nImageSize"
+			],
+			[
+				"exp",
+				"nExpectedCRCVal"
+			],
+			[
+				"nDa",
+				"nDataIndex"
+			],
+			[
+				"nIma",
+				"nImageSizeHi"
+			],
+			[
+				"nDat",
+				"nData"
+			],
+			[
+				"dev",
+				"devInfo"
+			],
+			[
+				"nB",
+				"nByteCount"
+			],
+			[
+				"FILE",
+				"File"
+			],
+			[
+				"nDB",
+				"nDBTimesTwo"
+			],
+			[
+				"CODEC",
+				"CODECClass"
+			],
+			[
+				"reg",
+				"regOriginal"
+			],
+			[
+				"DSC",
+				"DSCdata"
+			],
+			[
+				"nData",
+				"nDataBuffer"
+			],
+			[
+				"RC",
+				"RC_data_t"
+			],
+			[
+				"RCda",
+				"RCdataBuffer"
+			],
+			[
+				"NET",
+				"NetworkClass"
+			],
+			[
+				"wa",
+				"waitReadyMs"
+			],
+			[
+				"delay",
+				"delayMicroseconds"
+			],
+			[
+				"wait",
+				"waitReadyMs"
+			],
+			[
+				"dela",
+				"delayMicroseconds"
+			],
+			[
+				"max",
+				"maxDelay"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"CC",
+				"CC8531Class"
+			],
+			[
+				"Aud",
+				"Audio_chan_t"
+			],
+			[
+				"type",
+				"typedef"
+			],
+			[
+				"Stat",
+				"StatusWord_t"
+			],
+			[
+				"aud",
+				"audioChan"
+			],
+			[
+				"Sta",
+				"StatusWord_t"
+			],
+			[
+				"WRITE",
+				"WRITE_WORD"
+			],
+			[
+				"nC",
+				"nCmdParam"
+			],
+			[
+				"DESE",
+				"DESELECT_CC8531"
+			],
+			[
+				"nByte",
+				"nByte2"
+			],
+			[
+				"dig",
+				"digitalRead"
+			],
+			[
+				"SELECT",
+				"SELECT_CC8531"
+			],
+			[
+				"pi",
+				"pinMode"
+			],
+			[
+				"ON_",
+				"ON_TX"
+			],
+			[
+				"O",
+				"ON_RX"
+			],
+			[
+				"SS_",
+				"SS_SD"
+			],
+			[
+				"SS",
+				"SS_CC8531"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "WirelessInterface.c",
+			"settings":
+			{
+				"buffer_size": 3563,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "CC8531.h",
+			"settings":
+			{
+				"buffer_size": 20471,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "CC8531.cpp",
+			"settings":
+			{
+				"buffer_size": 19449,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ReadHexTest2.c",
+			"settings":
+			{
+				"buffer_size": 2130,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Program Files (x86)/arduino-1.0.3/libraries/SD/utility/Sd2Card.cpp",
+		"/C/Program Files (x86)/arduino-1.0.3/libraries/SD/utility/Sd2Card.h",
+		"/C/Program Files (x86)/arduino-1.0.3/libraries/SPI/SPI.cpp",
+		"/C/Program Files (x86)/arduino-1.0.3/libraries/SD/utility/SdFile.cpp",
+		"/C/Program Files (x86)/arduino-1.0.3/libraries/SD/SD.cpp",
+		"/C/Program Files (x86)/arduino-1.0.3/libraries/SD/SD.h",
+		"/C/Program Files (x86)/arduino-1.0.3/libraries/SD/File.cpp",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ReadHex.cpp",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/CC8531.cpp",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/examples/msp430/msp-exp430f5438/flash_programming/main.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/examples/msp430/msp-exp430f5438/flash_programming/ppweb_preloaded_demo_master.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ReadHexTest.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/CC8531.h",
+		"/C/MinGW/lib/gcc/mingw32/4.6.2/include/ssp/stdio.h",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/CODEC.cpp",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/CODEC.h",
+		"/C/Users/Eva/Google Drive/Projects/main.h",
+		"/C/Users/Eva/Google Drive/Projects/test2.c",
+		"/C/Users/Eva/Google Drive/Projects/useful_defines.h",
+		"/C/Users/Eva/Google Drive/Projects/RTC.h",
+		"/C/Users/Eva/Google Drive/Projects/AD9832.h",
+		"/C/Users/Eva/Google Drive/Projects/4-Key-Keyboard/main.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/source/cc85xx_ehif_field_op.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/source/cc85xx_ehif_defs.h",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/source/cc85xx_ehif_cmd_exec.h",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/source/cc85xx_ehif_cmd_exec.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/source/cc85xx_ehif_utils.h",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/source/cc85xx_ehif_bootloader.h",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/source/cc85xx_ehif_bootloader.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/source/V cc85xx_ehif_basic_op.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/CC8531_interface.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/source/cc85xx_ehif_basic_op.h",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/source/cc85xx_ehif_basic_op.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/WirelessInterface.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/ehif_lib/source/hal/msp430/msp-exp430f5438/cc85xx_ehif_hal_board.c",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/CC8531_interface.h",
+		"/C/Users/Eva/Google Drive/Wireless Audio Project/Code/WirelessIterface.ido"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"static ",
+			"static",
+			"read()",
+			"dataFile.read",
+			"dataFile.read()",
+			"signed char",
+			"EHIF_",
+			"WRITE_WORD"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"read(pFile)",
+			"read",
+			"read()",
+			"s8",
+			"",
+			"writeWord",
+			"WRITE_WORD"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "WirelessInterface.c",
+					"settings":
+					{
+						"buffer_size": 3563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2419,
+								2419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 945.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "CC8531.h",
+					"settings":
+					{
+						"buffer_size": 20471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18355,
+								18355
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9491.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "CC8531.cpp",
+					"settings":
+					{
+						"buffer_size": 19449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10428,
+								10428
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4410.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ReadHexTest2.c",
+					"settings":
+					{
+						"buffer_size": 2130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.33,
+			0.66,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

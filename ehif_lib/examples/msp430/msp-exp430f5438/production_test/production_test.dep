@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2622240403</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\source\hal\msp430\cc85xx_ehif_hal_mcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\little_endian\cc85xx_ehif_field_op.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_basic_op.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_bootloader.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_bootloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_cmd_exec.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_cmd_exec.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_utils.h</file>
+      <file>$PROJ_DIR$\..\common\hal_board.c</file>
+      <file>$PROJ_DIR$\..\common\hal_buttons.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\little_endian\cc85xx_ehif_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\hal\msp430\msp-exp430f5438\cc85xx_ehif_hal_board.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_board.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_int.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_buttons.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_lcd.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_hal_board.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_cmd_exec.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_field_op.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_basic_op.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_bootloader.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_mcu.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_tlv.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\headset_preloaded_demo_application_master.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\headset_preloaded_demo_application_slave.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\headset_preloaded_demo_prodtest_master.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\headset_preloaded_demo_prodtest_slave.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_hal_board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_field_op.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_basic_op.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_bootloader.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_cmd_exec.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_buttons.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_int.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_lcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_mcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_tlv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\headset_preloaded_demo_application_master.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\headset_preloaded_demo_application_slave.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\headset_preloaded_demo_prodtest_master.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\headset_preloaded_demo_prodtest_slave.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\cc85xx_ehif_bootloader.lst</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xlfn.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\production_test.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\production_test.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\List\cc85xx_ehif_field_op.lst</file>
+      <file>$PROJ_DIR$\Debug\List\headset_preloaded_demo_prodtest_master.lst</file>
+      <file>$PROJ_DIR$\..\common\hal_board.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\List\headset_preloaded_demo_application_slave.lst</file>
+      <file>$PROJ_DIR$\..\common\UserExperienceGraphics.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\List\hal_buttons.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_basic_op.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\hal\msp430\msp-exp430f5438\cc85xx_ehif_hal_board.c</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xlfn.r43</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F5438.xcl</file>
+      <file>$PROJ_DIR$\Debug\List\hal_tlv.lst</file>
+      <file>$PROJ_DIR$\..\common\hal_int.c</file>
+      <file>$PROJ_DIR$\..\common\hal_lcd.c</file>
+      <file>$PROJ_DIR$\..\common\hal_mcu.c</file>
+      <file>$PROJ_DIR$\..\common\hal_tlv.c</file>
+      <file>$PROJ_DIR$\headset_preloaded_demo_application_master.c</file>
+      <file>$PROJ_DIR$\headset_preloaded_demo_application_slave.c</file>
+      <file>$PROJ_DIR$\headset_preloaded_demo_prodtest_master.c</file>
+      <file>$PROJ_DIR$\headset_preloaded_demo_prodtest_slave.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f5438.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x54xA.h</file>
+      <file>$PROJ_DIR$\..\common\hal_lcd.h</file>
+      <file>$PROJ_DIR$\..\common\hal_buttons.h</file>
+      <file>$PROJ_DIR$\Debug\List\cc85xx_ehif_hal_board.lst</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\common\hal_mcu.h</file>
+      <file>$PROJ_DIR$\Debug\List\cc85xx_ehif_basic_op.lst</file>
+      <file>$PROJ_DIR$\..\common\hal_int.h</file>
+      <file>$PROJ_DIR$\..\common\hal_lcd_fonts.h</file>
+      <file>$PROJ_DIR$\Debug\List\main.lst</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\List\headset_preloaded_demo_prodtest_slave.lst</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\..\common\hal_msp-exp430f5438.h</file>
+      <file>$PROJ_DIR$\Debug\List\hal_int.lst</file>
+      <file>$PROJ_DIR$\Debug\List\headset_preloaded_demo_application_master.lst</file>
+      <file>$PROJ_DIR$\Debug\List\hal_lcd.lst</file>
+      <file>$PROJ_DIR$\..\common\hal_defs.h</file>
+      <file>$PROJ_DIR$\Debug\List\hal_board.lst</file>
+      <file>$PROJ_DIR$\..\common\hal_tlv.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$PROJ_DIR$\..\common\hal_types.h</file>
+      <file>$PROJ_DIR$\Debug\List\cc85xx_ehif_cmd_exec.lst</file>
+      <file>$PROJ_DIR$\Debug\List\hal_mcu.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_field_op.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\little_endian\cc85xx_ehif_field_op.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 50 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 104 49 57 58 78 77 48 59 2 0 91 76 92 83 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 7 104 49 57 58 78 45 77 48 59 2 0 91 76 92 83 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_bootloader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 49 57 58 78 77 48 59 2 7 0 91 76 92 83 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 49 57 58 78 45 77 48 59 2 7 0 91 76 92 83 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_cmd_exec.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 102 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 6 49 57 58 78 77 48 59 10 104 0 91 76 92 83 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 7 6 49 57 58 78 45 77 48 59 10 104 0 91 76 92 83 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 98 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 80 81 52 99 79 92 83</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 93 80 81 52 99 79 92 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_buttons.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 60 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 92 83 93 80 81 52 99</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 79 92 83 93 80 81 52 99</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\production_test.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 65 100 19 20 17 18 16 12 14 13 15 21 22 23 24 25 26 27 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_basic_op.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 85 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 2 49 57 58 78 77 48 59 0 91 76 92 83 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 7 2 49 57 58 78 45 77 48 59 0 91 76 92 83 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\hal\msp430\msp-exp430f5438\cc85xx_ehif_hal_board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 82 16</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 91 76 92 83 0</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 11 91 76 92 83 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_int.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 94 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101 97 86 83 52</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 101 97 86 83 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 96 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 92 83 93 80 81 52 99 87</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 79 92 83 93 80 81 52 99 87</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_mcu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 103 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101 97 52 84</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 101 97 52 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_tlv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 66 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99 79 92 83</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 99 79 92 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\headset_preloaded_demo_application_master.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 95 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 57 58 78 77 48 59</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 49 57 58 78 45 77 48 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\headset_preloaded_demo_application_slave.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 54 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 57 58 78 77 48 59</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 49 57 58 78 45 77 48 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\headset_preloaded_demo_prodtest_master.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 51 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 49 57 58 78 45 77 48 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\headset_preloaded_demo_prodtest_slave.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 90 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 49 57 58 78 45 77 48 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 88 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 91 76 92 83 49 57 58 78 45 77 48 59 89 63 53 56 7 10 2 11 0 6 4 52 80 86 101 81 55</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

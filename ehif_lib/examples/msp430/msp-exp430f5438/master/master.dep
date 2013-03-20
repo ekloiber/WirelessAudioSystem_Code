@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2640333183</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\source\hal\msp430\cc85xx_ehif_hal_mcu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_buttons.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_lcd.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_int.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_mcu.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_hal_board.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_cmd_exec.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_board.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_basic_op.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_field_op.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_tlv.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_field_op.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_basic_op.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_hal_board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc85xx_ehif_cmd_exec.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_buttons.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_int.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_lcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_mcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_tlv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\master.d43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_field_op.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\master.pbd</file>
+      <file>$PROJ_DIR$\Debug\List\hal_buttons.lst</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$PROJ_DIR$\..\common\hal_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\hal\msp430\msp-exp430f5438\cc85xx_ehif_hal_board.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\hal\msp430\msp-exp430f5438\cc85xx_ehif_hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_utils.h</file>
+      <file>$PROJ_DIR$\..\common\hal_board.c</file>
+      <file>$PROJ_DIR$\..\common\hal_buttons.c</file>
+      <file>$PROJ_DIR$\..\common\hal_int.c</file>
+      <file>$PROJ_DIR$\..\common\hal_lcd.c</file>
+      <file>$PROJ_DIR$\..\common\hal_mcu.c</file>
+      <file>$PROJ_DIR$\..\common\hal_tlv.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\List\hal_int.lst</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\List\cc85xx_ehif_field_op.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\little_endian\cc85xx_ehif_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\little_endian\cc85xx_ehif_field_op.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_basic_op.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_basic_op.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_cmd_exec.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_cmd_exec.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F5438.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$PROJ_DIR$\Debug\List\cc85xx_ehif_hal_board.lst</file>
+      <file>$PROJ_DIR$\Debug\List\cc85xx_ehif_basic_op.lst</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f5438.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Debug\List\hal_tlv.lst</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x54xA.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$PROJ_DIR$\Debug\List\cc85xx_ehif_cmd_exec.lst</file>
+      <file>$PROJ_DIR$\..\common\hal_board.h</file>
+      <file>$PROJ_DIR$\..\common\hal_lcd.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\common\hal_mcu.h</file>
+      <file>$PROJ_DIR$\Debug\List\hal_lcd.lst</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\common\hal_msp-exp430f5438.h</file>
+      <file>$PROJ_DIR$\..\common\hal_buttons.h</file>
+      <file>$PROJ_DIR$\..\common\hal_int.h</file>
+      <file>$PROJ_DIR$\..\common\hal_tlv.h</file>
+      <file>$PROJ_DIR$\Debug\List\hal_mcu.lst</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\common\hal_lcd_fonts.h</file>
+      <file>$PROJ_DIR$\..\common\hal_defs.h</file>
+      <file>$PROJ_DIR$\Debug\List\hal_board.lst</file>
+      <file>$PROJ_DIR$\Debug\List\main.lst</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\master.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 53 63 8 6 9 5 7 1 3 2 4 10 12 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\hal\msp430\msp-exp430f5438\cc85xx_ehif_hal_board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 56 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 55 58 54 70 0</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 35 55 58 54 70 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 79 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71 66 72 65 74 61 54 70</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 71 66 72 65 74 61 54 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_buttons.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 54 70 71 66 72 65 74</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 61 54 70 71 66 72 65 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_int.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 78 73 70 65</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 33 78 73 70 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 69 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 54 70 71 66 72 65 74 77</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 61 54 70 71 66 72 65 74 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_mcu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 75 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 78 65 68</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 33 78 65 68</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\hal_tlv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 60 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74 61 54 70</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 74 61 54 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 80 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 55 58 54 70 29 24 28 62 32 67 30 45 31 76 36 47 50 35 0 52 65 66 73 33 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\little_endian\cc85xx_ehif_field_op.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 46 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 25 29 24 28 62 67 30 45 50 0 55 58 54 70 35</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 36 25 29 24 28 62 32 67 30 45 50 0 55 58 54 70 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_basic_op.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 57 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 50 29 24 28 62 67 30 45 0 55 58 54 70 35</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 36 50 29 24 28 62 32 67 30 45 0 55 58 54 70 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\cc85xx_ehif_cmd_exec.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 64 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 52 29 24 28 62 67 30 45 47 25 0 55 58 54 70 35</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 36 52 29 24 28 62 32 67 30 45 47 25 0 55 58 54 70 35</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
