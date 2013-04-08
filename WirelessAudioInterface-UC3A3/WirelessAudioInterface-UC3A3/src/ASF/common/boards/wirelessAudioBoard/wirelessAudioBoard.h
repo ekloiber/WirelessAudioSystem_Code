@@ -1,0 +1,114 @@
+/**
+ * \file
+ *
+ * \brief Wireless audio board 
+ *
+ */
+
+ /* This file is intended to contain definitions and configuration details for
+ * features and devices that are available on the board, e.g., frequency and
+ * startup time for an external crystal, external memory devices, LED and USART
+ * pins.
+ */
+
+#ifndef	WIRELESS_AUDIO_BOARD_H_
+#define WIRELESS_AUDIO_BOARD_H_
+
+#include <conf_board.h>
+
+// External oscillator frequency
+#define BOARD_XOSC_HZ       12000000
+
+// Desired board frequencies
+#define FCPU_HZ				66000000
+#define FPBA_HZ				66000000
+#define FPBB_HZ				33000000
+#define FUSB_HZ				48000000
+
+// External oscillator parameters
+#define BOARD_XOSC_TYPE			XOSC_TYPE_XTAL
+#define BOARD_OSC0_HZ			12000000
+#define BOARD_OSC0_IS_XTAL		1
+#define BOARD_OSC1_HZ			12880000
+#define BOARD_OSC1_IS_XTAL		0
+
+// External oscillator startup time
+#define BOARD_XOSC_STARTUP_US	500
+#define BOARD_OSC0_STARTUP_US	500
+#define BOARD_OSC1_STARTUP_US	500
+
+// System clock
+#define CONFIG_SYSCLK_SOURCE	SYSCLK_SRC_PLL0
+
+// PLL0 
+#define CONFIG_PLL0_SRC		0
+#define CONFIG_PLL0_MUL		3//(FCPU_HZ / BOARD_OSC0_HZ);
+#define CONFIG_PLL0_DIV		1
+#define CONFIG_PLL0_LOCK	16
+
+// PLL1
+#define CONFIG_PLL1_SRC		0
+#define CONFIG_PLL1_MUL		4//(FUSB_HZ / BOARD_OSC0_HZ);
+#define CONFIG_PLL1_DIV		1
+#define CONFIG_PLL1_LOCK	16
+
+// Bus clocks
+#define CONFIG_SYSCLK_CPU_DIV	0
+#define CONFIG_SYSCLK_PBA_DIV	((FCPU_HZ/FPBA_HZ)-1)
+#define CONFIG_SYSCLK_PBB_DIV	((FCPU_HZ/FPBB_HZ)-1)
+
+// USB clock
+#define CONFIG_USBCLK_SOURCE	USBCLK_SRC_PLL1
+#define CONFIG_USBCLK_DIV		4
+
+// USB config
+#define USB_DEVICE_FEATURE	true
+#define USB_HOST_FEATURE	false
+
+// GPIO Pins
+#define PIN_CC8530_nRESET	AVR32_PIN_PA06
+#define PIN_CC8530_nPAIR	AVR32_PIN_PA13
+#define PIN_PHONE_SENSE		AVR32_PIN_PA18
+#define PIN_LINEIN_SENSE	AVR32_PIN_PA19
+#define PIN_SD_nIN			AVR32_PIN_PA30
+
+#define PIN_nLED0			AVR32_PIN_PX08
+#define PIN_TOUCH_nCHANGE	AVR32_PIN_PX12
+#define PIN_nLED1			AVR32_PIN_PX15
+#define PIN_CODEC_nMUTE_L	AVR32_PIN_PX30
+#define PIN_CODEC_nRESET	AVR32_PIN_PX31
+#define PIN_CODEC_nMUTE_R	AVR32_PIN_PX32
+#define PIN_nGPIO			AVR32_PIN_PX46
+
+// SD Pins
+#define SD_MMC_MCI_EN	1
+#define SD_SLOT_4BITS	1
+#define SD_SLOT_MCI		(&AVR32_MCI)
+#define SD_SLOT_4BITS_CLK_PIN			AVR32_MCI_CLK_0_PIN
+#define SD_SLOT_4BITS_CLK_FUNCTION		AVR32_MCI_CLK_0_FUNCTION
+#define SD_SLOT_4BITS_CMD_PIN			AVR32_MCI_CMD_0_PIN
+#define SD_SLOT_4BITS_CMD_FUNCTION		AVR32_MCI_CMD_0_FUNCTION
+#define SD_SLOT_4BITS_DATA0_PIN			AVR32_MCI_DATA_0_PIN
+#define SD_SLOT_4BITS_DATA0_FUNCTION	AVR32_MCI_DATA_0_FUNCTION
+#define SD_SLOT_4BITS_DATA1_PIN			AVR32_MCI_DATA_1_PIN
+#define SD_SLOT_4BITS_DATA1_FUNCTION	AVR32_MCI_DATA_1_FUNCTION
+#define SD_SLOT_4BITS_DATA2_PIN			AVR32_MCI_DATA_2_PIN
+#define SD_SLOT_4BITS_DATA2_FUNCTION	AVR32_MCI_DATA_2_FUNCTION
+#define SD_SLOT_4BITS_DATA3_PIN			AVR32_MCI_DATA_3_PIN
+#define SD_SLOT_4BITS_DATA3_FUNCTION	AVR32_MCI_DATA_3_FUNCTION
+#define SD_SLOT_4BITS_CARD_DETECT		AVR32_PIN_PB01
+#define SD_SLOT_4BITS_CARD_DETECT_VALUE	0
+#define SD_SLOT_4BITS_WRITE_PROTECT		AVR32_PIN_PB02
+#define SD_SLOT_4BITS_WRITE_PROTECT_VALUE	1
+
+// Debug USART
+#ifdef DEBUG
+	#define DBG_USART	1
+	#define DBG_USART_RX_PIN		AVR32_USART0_RXD_0_1_PIN
+	#define DBG_USART_RX_FUNCTION	AVR32_USART0_RXD_0_1_FUNCTION
+	#define DBG_USART_RX_PIN		AVR32_USART0_TXD_0_1_PIN
+	#define DBG_USART_RX_FUNCTION	AVR32_USART0_TXD_0_1_FUNCTION
+	#define DBG_USART_BAUDRATE		57600
+#endif
+
+#endif // WIRELESS_AUDIO_BOARD_H_
